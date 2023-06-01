@@ -1,0 +1,171 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+
+#header-left img {
+    border-style: none;
+    width: 130px;
+    max-width: 100%;
+    height: auto;
+    margin: 9%;
+
+
+}
+
+
+
+.menu{
+    color: rgba(0, 0, 0, 0.695);
+    font-weight: 800;
+}
+
+.menu:hover{
+    color: rgb(121, 54, 255);
+    transition: color 1.0s ease;
+}
+
+button.redondo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0px 25px;
+    height: 45px;
+    font-weight: 800;
+
+}
+
+button.redondo:hover {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    transition: 0.5s ease;
+
+}
+
+.menu_redes{
+    margin-left:20px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.695);
+
+}
+.menu_redes:hover{
+    color: rgb(121, 54, 255);
+    transition: color 1.0s ease;
+}
+
+
+#link_sumate{
+    border: 2px solid rgb(121, 54, 255);
+    color: rgb(121, 54, 255);
+
+}
+
+#link_sumate:hover{
+    background-color: rgb(121, 54, 255);
+    color: aliceblue;
+    transition: 0.5s ease;
+    border: 2px solid rgb(121, 54, 255);
+
+
+}
+
+p .texto{
+    padding: 60px;
+    color:aqua;
+}
+
+#container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 80px;
+    padding: 10%;
+    background-color:#201b24;
+  }
+  .contendio{
+    display: flex;
+    align-items: flex-start;
+    padding:0 10%;
+    justify-content: flex-end;
+  }
+
+  .texto_titulo {
+    flex-basis: 50%;
+    margin: 10px;
+  }
+  
+  .texto_parafo {
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.908);
+  }
+  .texto_parafo p{
+    padding: 0 30% 0 0;
+  }
+
+  .impacto{
+    font-size: 40px;
+    font-weight: 800;
+    color: aliceblue;
+  }
+
+  #numero{
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+  }
+
+  .dato {
+    color: rgba(194, 193, 193, 0.663);
+    text-align: center;
+    padding-right: 60px;
+    margin-top: 60px;
+ 
+  }
+
+ 
+
+  #mas{
+    color: rgb(123, 61, 181);
+    font-size: 40px;
+  }
+
+  .banner{
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px;
+    border-color: var(--awb-color3);
+    border-style: solid;
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(-80px + 100vh);
+  }
+
+  .informacion{
+    height: 500px;
+  }
+
+  #container2 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.977);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 80px;
+    padding: 50px 20%;
+    background-color:#201b24;
+    color: rgba(255, 255, 255, 0.435);
+  }
+
+.columan{
+    color: white;
+    margin-right: 10px;
+  }
+.que{
+    color: rgba(255, 255, 255, 0.543);
+    margin: 0 20px;
+}
+.columan a{
+    color: white;
+}
